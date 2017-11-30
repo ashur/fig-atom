@@ -2,6 +2,9 @@
 # * http://flight-manual.atom.io/using-atom/sections/basic-customization/#customizing-keybindings
 # * http://flight-manual.atom.io/behind-atom/sections/keymaps-in-depth/
 
+'atom-text-editor':
+    'ctrl-cmd-w': 'editor:toggle-soft-wrap'
+
 'atom-workspace':
     'cmd-shift-.': 'phpunit:alltests'
     'cmd-shift-h': 'phpunit:hide'
